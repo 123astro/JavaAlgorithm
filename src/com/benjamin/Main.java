@@ -10,5 +10,6 @@ public class Main {
         System.out.println((NextNumber.addition(2)));
         System.out.println(ReturnSumOf2Num.sum(3, 2));
         System.out.println(MinToSec.convert(6));
+        System.out.println(ReturnSomethingToMe.giveMeSomething("keith b"));
     }
 }
