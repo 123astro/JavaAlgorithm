@@ -12,5 +12,6 @@ public class Main {
         System.out.println(MinToSec.convert(6));
         System.out.println(ReturnSomethingToMe.giveMeSomething("keith b"));
         System.out.println(FlipTheBoolean.reverse(false));
+        System.out.println(GetWordCount.countWords("John is dead"));
     }
 }
