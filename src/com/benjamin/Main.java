@@ -16,5 +16,6 @@ public class Main {
         System.out.println(ExistsHigherNumber.existsHigher(new int[]{10, 3, 5, 2, 4}, 10));
         System.out.println(HowManyVowels.getCount("Celebration"));
         System.out.println(ReturnTheSumOfTwoNums.sum(3,2));
+        System.out.println(AreNumbersEqual.isSameNum(3,4) );
     }
 }
