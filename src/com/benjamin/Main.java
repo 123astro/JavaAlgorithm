@@ -17,5 +17,6 @@ public class Main {
         System.out.println(HowManyVowels.getCount("Celebration"));
         System.out.println(ReturnTheSumOfTwoNums.sum(3,2));
         System.out.println(AreNumbersEqual.isSameNum(3,4) );
+        System.out.println(NameGreeting.helloName("Keith"));
     }
 }
