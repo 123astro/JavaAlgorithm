@@ -13,5 +13,6 @@ public class Main {
         System.out.println(ReturnSomethingToMe.giveMeSomething("keith b"));
         System.out.println(FlipTheBoolean.reverse(false));
         System.out.println(GetWordCount.countWords("John is dead"));
+        System.out.println(ExistsHigherNumber.existsHigher(new int[]{10, 3, 5, 2, 4}, 10));
     }
 }
