@@ -1,6 +1,7 @@
 package com.benjamin;
 
 
+import java.io.OutputStream;
 
 public class Main {
 
@@ -18,5 +19,6 @@ public class Main {
         System.out.println(ReturnTheSumOfTwoNums.sum(3,2));
         System.out.println(AreNumbersEqual.isSameNum(3,4) );
         System.out.println(NameGreeting.helloName("Keith"));
+        System.out.println(ReverseTheOrderOfString.reverse("Keith"));
     }
 }
