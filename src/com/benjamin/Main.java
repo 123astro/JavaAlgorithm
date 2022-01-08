@@ -22,5 +22,7 @@ public class Main {
         System.out.println(ReverseTheOrderOfString.reverse("Keith"));
         System.out.println(TwoMakesTen.makesTen(5, 5));
         System.out.println(CountSyllables.numberSyllables("beau-ti-full"));
+        System.out.println("Are the words the same (ignore case): " + CaseInsensitiveComparison.match("hello",
+                "HELLO"));
     }
 }
