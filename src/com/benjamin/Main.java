@@ -21,5 +21,6 @@ public class Main {
         System.out.println(NameGreeting.helloName("Keith"));
         System.out.println(ReverseTheOrderOfString.reverse("Keith"));
         System.out.println(TwoMakesTen.makesTen(5, 5));
+        System.out.println(CountSyllables.numberSyllables("beau-ti-full"));
     }
 }
