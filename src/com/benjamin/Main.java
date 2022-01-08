@@ -24,5 +24,6 @@ public class Main {
         System.out.println(CountSyllables.numberSyllables("beau-ti-full"));
         System.out.println("Are the words the same (ignore case): " + CaseInsensitiveComparison.match("hello",
                 "HELLO"));
+        System.out.println("Hacker Speak: " + HackerSpeak.hackerSpeak("javascript is cool"));
     }
 }
