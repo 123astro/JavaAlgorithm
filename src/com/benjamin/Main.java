@@ -30,6 +30,7 @@ public class Main {
    //    System.out.println(StdinAndStdout.solution());
      // System.out.println(IfElse.solution(3));
        // System.out.println(StdinAndStdoutTwo.solution());
-        System.out.println(JavaOutputFormatting.solution());
+       // System.out.println(JavaOutputFormatting.solution());
+    JavaLoops1.cal(2);
     }
 }
