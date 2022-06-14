@@ -24,7 +24,12 @@ public class Main {
 //        System.out.println("Hacker Speak: " + HackerSpeak.hackerSpeak("javascript is cool"));
   //      System.out.println("Find the Discount " + FindTheDiscount.discount(123, 20));
      // System.out.println("Hitting the Jackpot: " + HittingTheJackpot.testJackpot(new String[]{"2", "4", "4"}));
-        System.out.println(WeeklySalary.theWeeklySalary(new int[]{8, 8, 0, 0, 0, 8, 8}));
-        System.out.println(SecretSociety.societyName(new String[]{"Ben", "Sam", "Adam"}));
+//        System.out.println(WeeklySalary.theWeeklySalary(new int[]{8, 8, 0, 0, 0, 8, 8}));
+//        System.out.println(SecretSociety.societyName(new String[]{"Ben", "Sam", "Adam"}));
+//        System.out.println(PerfectSquarePatch.squarePatch(3));
+   //    System.out.println(StdinAndStdout.solution());
+     // System.out.println(IfElse.solution(3));
+       // System.out.println(StdinAndStdoutTwo.solution());
+        System.out.println(JavaOutputFormatting.solution());
     }
 }
