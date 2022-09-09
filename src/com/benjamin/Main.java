@@ -34,7 +34,9 @@ public class Main {
     //JavaLoops1.cal(2);
 //        JavaLoops2.javaLoopAgain(5, 3, 5);
 //        JavaLoops2.javaLoopAgain(0, 2, 10);
-        JavaDatatypes.javaDataT();
+//        JavaDatatypes.javaDataT();
+      //  JavaEndOfFile.scanNext();
+        JavaStaticInitializerBlock.scanNext();
     }
 
 }
