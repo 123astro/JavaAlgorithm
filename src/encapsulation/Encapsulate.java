@@ -13,7 +13,7 @@ package encapsulation;
     public int getAge() { return geekAge; }
 
     // get method for name to access
-    // private variable geekName
+
     public String getName() { return geekName; }
 
     // get method for roll to access
