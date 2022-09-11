@@ -1,11 +1,7 @@
 package com.benjamin;
 
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
+
 import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.Locale;
 
 public class JavaDateAndTime {
 
@@ -21,11 +17,13 @@ public class JavaDateAndTime {
      */
 
     public static void findDay(int month, int day, int year) {
-        String[] days = new String[]{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+        String[] days = new String[]{"SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"};
         Calendar calendar = Calendar.getInstance();
-        calendar.set(year, (month - 1), day);
-        System.out.println(days[ calendar.get(Calendar.DAY_OF_WEEK)]);
+        calendar.set(year, month - 1 , day);
+        System.out.println(days[(calendar.get(Calendar.DAY_OF_WEEK) -1 )]);
+        // minus ones are because Jan is month 0 and Dec is month 11, same logic for days.
     }
+
 
 
     public static String findDay2(int month, int day, int year) {

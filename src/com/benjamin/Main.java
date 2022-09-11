@@ -37,8 +37,8 @@ public class Main {
 //        JavaDatatypes.javaDataT();
       //  JavaEndOfFile.scanNext();
        // JavaStaticInitializerBlock.scanNext();
-       JavaDateAndTime.findDay(8,5,2015);
-      JavaDateAndTime.findDay2(8, 5, 2015);
+       JavaDateAndTime.findDay(9,5,2015);
+      JavaDateAndTime.findDay2(9, 5, 2015);
     }
 
 }
