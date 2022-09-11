@@ -2,6 +2,7 @@ package com.benjamin;
 
 import abstraction.Car;
 import abstraction.Suzuki;
+import encapsulation.Area;
 
 public class Main {
 
@@ -42,8 +43,14 @@ public class Main {
        // JavaStaticInitializerBlock.scanNext();
       // JavaDateAndTime.findDay(9,5,2015);
      // JavaDateAndTime.findDay2(9, 5, 2015);
-        Car obj = new Suzuki();
-        obj.accelerate();
+
+//        Car obj = new Suzuki();
+//        obj.accelerate();
+//        obj.hasGas();
+
+        Area rectangle = new Area(2, 16);
+        rectangle.getArea();
+
     }
 
 }

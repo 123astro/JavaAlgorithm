@@ -2,9 +2,15 @@ package abstraction;
 
 public abstract class Car {
     public abstract void accelerate();
+
+   // public abstract void hasGas();
+
+    public void hasGas(){
+        System.out.println(" Half full");
+    }
 }
 //An abstract class can be defined as a class declared with the keyword “abstract” and has a restriction that it
-// cannot be instantiated.
+// cannot be instantiated.  Sets the rules for the children classes.
 
 //    Is Encapsulation possible without inheritance?
 //        Yes, because Encapsulation is the ability to hide a class properties from the outside world by means of
