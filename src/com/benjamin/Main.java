@@ -67,6 +67,7 @@ public class Main {
         // obj.geekName);
           //JavaCurrencyFormatter.solution();
         ConvertIntToString.intConvert(100);
+        JavaStringsIntro.JavaStringI();
 
 
     }
