@@ -30,7 +30,6 @@ package encapsulation;
     {
         geekName = newName;
     }
-
     // set method for roll to access
     // private variable geekRoll
     public void setRoll(int newRoll) { geekRoll = newRoll; }

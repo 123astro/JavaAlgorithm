@@ -65,7 +65,7 @@ public class Main {
         // due to encapsulation
         // System.out.println("Geek's roll: " +
         // obj.geekName);
-
+          JavaCurrencyFormatter.solution();
     }
 
 }
