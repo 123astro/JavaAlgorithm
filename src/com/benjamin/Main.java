@@ -4,6 +4,11 @@ import abstraction.Car;
 import abstraction.Suzuki;
 import encapsulation.Encapsulate;
 
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
 
 public class Main {
 
@@ -66,10 +71,12 @@ public class Main {
         // System.out.println("Geek's roll: " +
         // obj.geekName);
           //JavaCurrencyFormatter.solution();
-        ConvertIntToString.intConvert(100);
-        JavaStringsIntro.JavaStringI();
-
+//        ConvertIntToString.intConvert(100);
+//        JavaStringsIntro.JavaStringI();
+           // JavaSimpleArraySum.simpleArraySum(6);
+         JavaCompareTheTriplets.start();
+        }
 
     }
 
-}
+
