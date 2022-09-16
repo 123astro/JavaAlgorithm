@@ -73,10 +73,10 @@ public class Main {
 //        JavaStringsIntro.JavaStringI();
         // JavaSimpleArraySum.simpleArraySum(6);
        // JavaCompareTheTriplets.start();
-       // Staircase.staircase(6);
+       Staircase.staircase(6);
 //        List<Integer> arr = new ArrayList<>(){{add(-4); add(3); add(-9); add(0); add(4); add(1);}};
 //        PlusMinusHacker.plusMinus(arr);
-        TimeConversion.timeConversion("07:05:45PM");
+        //TimeConversion.timeConversion("07:05:45PM");
 
     }
 
