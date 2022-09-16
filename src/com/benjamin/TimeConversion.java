@@ -24,12 +24,17 @@ import java.util.Locale;
 public class TimeConversion {
     public static String timeConversion(String s) {
         // Write your code here
-
-        SimpleDateFormat date12Format= new SimpleDateFormat("hh:mm:ssa");
+        String x = "";
+        SimpleDateFormat date12Format = new SimpleDateFormat("hh:mm:ssa");
         SimpleDateFormat date24Format = new SimpleDateFormat("HH:mm:ss");
-
-
-        return "done";
+        try {
+            x = date24Format.format(date12Format.parse(s));
+            System.out.println(x);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return x;
     }
 }
+
 
