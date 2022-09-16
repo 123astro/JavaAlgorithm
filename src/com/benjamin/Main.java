@@ -4,10 +4,7 @@ import abstraction.Car;
 import abstraction.Suzuki;
 import encapsulation.Encapsulate;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 
 public class Main {
@@ -32,23 +29,23 @@ public class Main {
 //        System.out.println("Are the words the same (ignore case): " + CaseInsensitiveComparison.match("hello",
 //                "HELLO"));
 //        System.out.println("Hacker Speak: " + HackerSpeak.hackerSpeak("javascript is cool"));
-  //      System.out.println("Find the Discount " + FindTheDiscount.discount(123, 20));
-     // System.out.println("Hitting the Jackpot: " + HittingTheJackpot.testJackpot(new String[]{"2", "4", "4"}));
+        //      System.out.println("Find the Discount " + FindTheDiscount.discount(123, 20));
+        // System.out.println("Hitting the Jackpot: " + HittingTheJackpot.testJackpot(new String[]{"2", "4", "4"}));
 //        System.out.println(WeeklySalary.theWeeklySalary(new int[]{8, 8, 0, 0, 0, 8, 8}));
 //        System.out.println(SecretSociety.societyName(new String[]{"Ben", "Sam", "Adam"}));
 //        System.out.println(PerfectSquarePatch.squarePatch(3));
-   //    System.out.println(StdinAndStdout.solution());
-     // System.out.println(IfElse.solution(3));
-       // System.out.println(StdinAndStdoutTwo.solution());
-       // System.out.println(JavaOutputFormatting.solution());
-    //JavaLoops1.cal(2);
+        //    System.out.println(StdinAndStdout.solution());
+        // System.out.println(IfElse.solution(3));
+        // System.out.println(StdinAndStdoutTwo.solution());
+        // System.out.println(JavaOutputFormatting.solution());
+        //JavaLoops1.cal(2);
 //        JavaLoops2.javaLoopAgain(5, 3, 5);
 //        JavaLoops2.javaLoopAgain(0, 2, 10);
 //        JavaDatatypes.javaDataT();
-      //  JavaEndOfFile.scanNext();
-       // JavaStaticInitializerBlock.scanNext();
-      // JavaDateAndTime.findDay(9,5,2015);
-     // JavaDateAndTime.findDay2(9, 5, 2015);
+        //  JavaEndOfFile.scanNext();
+        // JavaStaticInitializerBlock.scanNext();
+        // JavaDateAndTime.findDay(9,5,2015);
+        // JavaDateAndTime.findDay2(9, 5, 2015);
 
 //        Car obj = new Suzuki();
 //        obj.accelerate();
@@ -70,12 +67,16 @@ public class Main {
         // due to encapsulation
         // System.out.println("Geek's roll: " +
         // obj.geekName);
-          //JavaCurrencyFormatter.solution();
+        //JavaCurrencyFormatter.solution();
 //        ConvertIntToString.intConvert(100);
 //        JavaStringsIntro.JavaStringI();
-           // JavaSimpleArraySum.simpleArraySum(6);
-         JavaCompareTheTriplets.start();
-        }
+        // JavaSimpleArraySum.simpleArraySum(6);
+       // JavaCompareTheTriplets.start();
+       // Staircase.staircase(6);
+        List<Integer> arr = new ArrayList<>(){{add(-4); add(3); add(-9); add(0); add(4); add(1);}};
+        PlusMinusHacker.plusMinus(arr);
+
+    }
 
     }
 
