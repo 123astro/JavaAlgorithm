@@ -4,12 +4,13 @@ import abstraction.Car;
 import abstraction.Suzuki;
 import encapsulation.Encapsulate;
 
+import java.text.ParseException;
 import java.util.*;
 
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
 //        System.out.println("Get the first Element: " + GetFirstElement.getFirstValue(new int[]{1, 2, 3, 4}));
 //        System.out.println("Find the index: " + FindTheIndex.search(new int[]{1, 2, 3, 4}, 4));
 //        System.out.println(("Next Number is: " + NextNumber.addition(2)));
@@ -73,8 +74,9 @@ public class Main {
         // JavaSimpleArraySum.simpleArraySum(6);
        // JavaCompareTheTriplets.start();
        // Staircase.staircase(6);
-        List<Integer> arr = new ArrayList<>(){{add(-4); add(3); add(-9); add(0); add(4); add(1);}};
-        PlusMinusHacker.plusMinus(arr);
+//        List<Integer> arr = new ArrayList<>(){{add(-4); add(3); add(-9); add(0); add(4); add(1);}};
+//        PlusMinusHacker.plusMinus(arr);
+        TimeConversion.timeConversion("07:05:45PM");
 
     }
 
