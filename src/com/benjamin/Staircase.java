@@ -2,9 +2,9 @@ package com.benjamin;
 
 public class Staircase {
 
-            public static void staircase(int n) {
+    public static void staircase(int n) {
         int count = n;
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             count--;
             String space = " ";
             String x = "#";
