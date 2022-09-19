@@ -72,19 +72,20 @@ public class Main {
 //        ConvertIntToString.intConvert(100);
 //        JavaStringsIntro.JavaStringI();
         // JavaSimpleArraySum.simpleArraySum(6);
-       // JavaCompareTheTriplets.start();
-      // Staircase.staircase(6);
+        // JavaCompareTheTriplets.start();
+        // Staircase.staircase(6);
 //        List<Integer> arr = new ArrayList<>(){{add(-4); add(3); add(-9); add(0); add(4); add(1);}};
 //        PlusMinusHacker.plusMinus(arr);
         //TimeConversion.timeConversion("07:05:45PM");
-        List<Integer> scores = new ArrayList<>(){{ add(0); add(9); add(3); add(10); add(2); add(20);}};
-      //  List<Integer> scores =
-            //    new ArrayList<>(){{ add(10); add(5); add(20); add(20); add(4); add(5); add(2); add(25); add(1);}};
+        // List<Integer> scores = new ArrayList<>(){{ add(0); add(9); add(3); add(10); add(2); add(20);}};
+        //  List<Integer> scores =
+        //    new ArrayList<>(){{ add(10); add(5); add(20); add(20); add(4); add(5); add(2); add(25); add(1);}};
         //10 5 20 20 4 5 2 25 1
-        BreakingTheRecords.breakingRecords(scores);
+        // BreakingTheRecords.breakingRecords(scores);
 
+        CamelCase4.convert();
     }
 
-    }
+}
 
 
