@@ -74,7 +74,9 @@ public class Main {
         // JavaSimpleArraySum.simpleArraySum(6);
         // JavaCompareTheTriplets.start();
         // Staircase.staircase(6);
-//        List<Integer> arr = new ArrayList<>(){{add(-4); add(3); add(-9); add(0); add(4); add(1);}};
+     // List<List<Integer>> arr = new ArrayList<>(){{add(2); add(3); add(4); }};
+
+        List<List<Integer>> arr = new ArrayList<>(){{}};
 //        PlusMinusHacker.plusMinus(arr);
         //TimeConversion.timeConversion("07:05:45PM");
         // List<Integer> scores = new ArrayList<>(){{ add(0); add(9); add(3); add(10); add(2); add(20);}};
@@ -83,7 +85,9 @@ public class Main {
         //10 5 20 20 4 5 2 25 1
         // BreakingTheRecords.breakingRecords(scores);
 
-        CamelCase4.convert();
+        //CamelCase4.convert();
+
+        DiagonalDifference.diagonalDifference(arr);
     }
 
 }
