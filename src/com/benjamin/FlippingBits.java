@@ -1,26 +1,37 @@
 package com.benjamin;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FlippingBits {
 
     public static void flippingBits(long n) {
-        // Write your code here
-        String result = String.format("%4d", 42949672);
-        System.out.println(result);
-        //System.out.printf('%032b', 4294967294);
-        String bin = Long.toBinaryString(n);
-        StringBuilder newBin = new StringBuilder();
-        for(Character binNum : bin.toCharArray()) {
-            if(binNum == '0'){
-                newBin.append("1");
-            } else {
-                newBin.append("0");
-            }
-            System.out.print(binNum);
+        String binary = Long.toBinaryString(n);
+        String padding = String.format("%32s", binary).replace(' ', '0');
+        System.out.println(padding);
+        List<Character> biNumList = new ArrayList<>();
+        for (char ch: padding.toCharArray()) {
+            biNumList.add(ch);
         }
-        System.out.print("\n" + newBin);
-        String x = Long.toBinaryString(n);
-       // System.out.println(Long.parseLong(String.valueOf(())));
-
+        System.out.println(biNumList);
+        for(int i = 0; i < biNumList.size(); i++){
+            if(biNumList.get(i) == '0')
+                biNumList.set(i, '1');
+            else{
+                biNumList.set(i, '0');
+            }
+        }
+        System.out.println(biNumList);
+        StringBuilder sb = new StringBuilder();
+        for (Character ch : biNumList){
+            sb.append(ch);
+        }
+        System.out.println(sb);
+        String sb2 = sb.toString();
+        Long decimal = Long.parseLong(sb2, 2);
+        System.out.println(decimal);
     }
 
 }
+
+
