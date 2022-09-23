@@ -34,14 +34,12 @@ public class CamelCase4 {
         }
         if (Character.isUpperCase(sb.charAt(0))) {
             sb.setCharAt(0, Character.toLowerCase(sb.charAt(0)));
-            System.out.println(sb);
         }
         String newString = sb.toString();
         int counter = 0;
         StringBuilder newString2 = new StringBuilder(newString);
         for (int i = 0; i < newString.length(); i++) {
             if (Character.isUpperCase(newString.charAt(i))) {
-                System.out.println(newString2);
                 newString2.insert(i + counter , ' ');
                 counter++;
             }
