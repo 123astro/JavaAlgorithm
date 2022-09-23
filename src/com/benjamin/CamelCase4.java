@@ -2,71 +2,66 @@ package com.benjamin;
 
 import jdk.swing.interop.SwingInterOpUtils;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CamelCase4 {
 
-    public static Scanner scanner = new Scanner(System.in);
+    //add a while loop scan.hasNextLine();
 
+    public static Scanner scanner = new Scanner(System.in);
+    public static StringBuilder sb;
 
     public static void convert() {
-        String newString2 = "";
         System.out.println("Please enter data: ");
         String inputString = scanner.nextLine();
-        StringBuilder sb = new StringBuilder(inputString);
-        selection(inputString);
-        if (inputString.charAt(0) == 'S') {
-            sb.delete(0, 4);
+        sb = new StringBuilder(inputString);
+        selection1(sb);
+    }
+
+    public static void selection1(StringBuilder sb) {
+        switch (sb.substring(0, 3)) {
+            case "S;M":
+            case "S;V":
+            case "S;C":
+                splitConvert();
+                break;
+        }
+    }
+
+    public static void splitConvert() {
+        sb.delete(0, 4);
+        if (sb.charAt(sb.length() - 1) == ')' && sb.charAt(sb.length() - 2) == '(') {
             sb.delete(sb.length() - 2, sb.length());
-            String newString = sb.toString();
-            for (int i = 0; i < newString.length(); i++) {
-                if (Character.isUpperCase(newString.charAt(i))) {
-                    newString2 = newString.replaceAll("([A-Z])", " ");
-                }
+        }
+        if (Character.isUpperCase(sb.charAt(0))) {
+            sb.setCharAt(0, Character.toLowerCase(sb.charAt(0)));
+            System.out.println(sb);
+        }
+        String newString = sb.toString();
+        int counter = 0;
+        StringBuilder newString2 = new StringBuilder(newString);
+        for (int i = 0; i < newString.length(); i++) {
+            if (Character.isUpperCase(newString.charAt(i))) {
+                System.out.println(newString2);
+                newString2.insert(i + counter , ' ');
+                counter++;
             }
-
-            System.out.println(newString2);
-        } else {
-
         }
-    }
-//
-//    } else
-//
-//    {
-//        System.out.println("combine");
-//    }
-
-//
-    public static void selection(String inputString) {
-
-        switch (inputString.charAt(2)) {
-            case 'M':
-                methodConvert();
-                break;
-            case 'V':
-                varConvert();
-                break;
-            case 'C':
-                classConvert();
-        }
+        String newString3 = newString2.toString().toLowerCase(Locale.ROOT);
+        System.out.println(newString3);
     }
 
-        public static void methodConvert () {
+    public static void classConvert() {
+        System.out.println("classConvert");
+    }
 
-            System.out.println("methodConvert");
-        }
-
-        public static void classConvert () {
-            System.out.println("classConvert");
-        }
-
-        public static void varConvert () {
-            System.out.println("var convert");
-
-        }
+    public static void varConvert() {
+        System.out.println("var convert");
 
     }
+
+}
 
 
 

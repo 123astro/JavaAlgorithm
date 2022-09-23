@@ -31,7 +31,6 @@ public class FlippingBits {
         Long decimal = Long.parseLong(sb2, 2);
         System.out.println(decimal);
     }
-
 }
 
 
