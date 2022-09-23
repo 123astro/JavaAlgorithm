@@ -2,10 +2,25 @@ package com.benjamin;
 
 import java.util.Locale;
 import java.util.Scanner;
+//input
+//S;M;plasticCup()
+// C;V;mobile phone
+// C;C;coffee machine
+//S;C;LargeSoftwareBook
+//C;M;white sheet of paper
+//S;V;pictureFrame
+
+//output
+//plastic cup
+//mobilePhone
+//CoffeeMachine
+//large software book
+//whiteSheetOfPaper()
+//picture frame
 
 public class CamelCase4 {
 
-    //add a while loop scan.hasNextLine();
+    //add while loop scan.hasNextLine();
 
     public static Scanner scanner = new Scanner(System.in);
     public static StringBuilder sb;
@@ -19,15 +34,12 @@ public class CamelCase4 {
 
     public static void selection1(StringBuilder sb) {
         switch (sb.substring(0, 3)) {
-            case "S;M":
-            case "S;V":
-            case "S;C":
-                splitConvert();
-                break;
+            case "S;M", "S;V", "S;C" -> split();
+            case "C;C", "C;V" , "C;M" -> combine();
         }
     }
 
-    public static void splitConvert() {
+    public static String split() {
         sb.delete(0, 4);
         if (sb.charAt(sb.length() - 1) == ')' && sb.charAt(sb.length() - 2) == '(') {
             sb.delete(sb.length() - 2, sb.length());
@@ -40,15 +52,47 @@ public class CamelCase4 {
         StringBuilder newString2 = new StringBuilder(newString);
         for (int i = 0; i < newString.length(); i++) {
             if (Character.isUpperCase(newString.charAt(i))) {
-                newString2.insert(i + counter , ' ');
+                newString2.insert(i + counter, ' ');
                 counter++;
             }
         }
         String newString3 = newString2.toString().toLowerCase(Locale.ROOT);
         System.out.println(newString3);
+        return newString3;
     }
 
+    public static String combine() {
+        if(sb.charAt(2) == 'C'){
+            sb.setCharAt(4, Character.toUpperCase(sb.charAt(4)));
+        }
+        if(sb.charAt(2) == 'M'){
+            sb.append('(');
+            sb.append(')');
+        }
+        sb.delete(0, 4);
+        String newString3 = null;
+        String newString = sb.toString();
+        System.out.println(newString);
+        int counter = 0;
+        StringBuilder newString2 = new StringBuilder(newString);
+        for (int i = 0; i < newString.length(); i++) {
+            if (!Character.isWhitespace(newString.charAt(i))) {
+                newString2.setCharAt(counter, newString.charAt(i));
+                counter++;
+            } else {
+                newString2.setCharAt(i + 1, newString.toUpperCase(Locale.ROOT).charAt(i + 1));
+                newString2.delete(i, i + 1);
+                newString3 = newString2.toString();
+            }
+        }
+        System.out.println(newString3);
+        return newString3;
+    }
 }
+
+
+
+
 
 
 
