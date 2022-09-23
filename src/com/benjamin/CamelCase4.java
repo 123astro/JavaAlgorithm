@@ -1,7 +1,5 @@
 package com.benjamin;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -50,15 +48,6 @@ public class CamelCase4 {
         }
         String newString3 = newString2.toString().toLowerCase(Locale.ROOT);
         System.out.println(newString3);
-    }
-
-    public static void classConvert() {
-        System.out.println("classConvert");
-    }
-
-    public static void varConvert() {
-        System.out.println("var convert");
-
     }
 
 }
