@@ -22,14 +22,18 @@ public class CamelCase4 {
 
     //add while loop scan.hasNextLine();
 
-    public static Scanner scanner = new Scanner(System.in);
+      public static Scanner scanner = new Scanner(System.in);
     public static StringBuilder sb;
 
+
+
     public static void convert() {
-        System.out.println("Please enter data: ");
-        String inputString = scanner.nextLine();
-        sb = new StringBuilder(inputString);
-        selection1(sb);
+        while (scanner.hasNextLine()) {
+            System.out.println("Please enter data: ");
+            String inputString = scanner.nextLine();
+            sb = new StringBuilder(inputString);
+            selection1(sb);
+        }
     }
 
     public static void selection1(StringBuilder sb) {
@@ -89,6 +93,7 @@ public class CamelCase4 {
         String newString4 = newString2.toString();
         System.out.println(newString4);
     }
+
 }
 
 
