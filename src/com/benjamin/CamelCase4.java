@@ -35,7 +35,7 @@ public class CamelCase4 {
     public static void selection1(StringBuilder sb) {
         switch (sb.substring(0, 3)) {
             case "S;M", "S;V", "S;C" -> split();
-            case "C;C", "C;V" , "C;M" -> combine();
+            case "C;C", "C;V", "C;M" -> combine();
         }
     }
 
@@ -61,11 +61,11 @@ public class CamelCase4 {
         return newString3;
     }
 
-    public static String combine() {
-        if(sb.charAt(2) == 'C'){
+    public static void combine() {
+        if (sb.charAt(2) == 'C') {
             sb.setCharAt(4, Character.toUpperCase(sb.charAt(4)));
         }
-        if(sb.charAt(2) == 'M'){
+        if (sb.charAt(2) == 'M') {
             sb.append('(');
             sb.append(')');
         }
@@ -73,24 +73,23 @@ public class CamelCase4 {
         String newString3 = null;
         String newString = sb.toString();
         System.out.println(newString);
-        int counter = 0;
         StringBuilder newString2 = new StringBuilder(newString);
-        for (int i = 0; i < newString.length(); i++) {
-            if (!Character.isWhitespace(newString.charAt(i))) {
-                newString2.setCharAt(counter, newString.charAt(i));
-                counter++;
-            } else {
+        for (int i = 0; i < newString.length(); ++i) {
+            if (Character.isWhitespace(newString2.charAt(i))) {
                 newString2.setCharAt(i + 1, newString.toUpperCase(Locale.ROOT).charAt(i + 1));
-                newString2.delete(i, i + 1);
-                newString3 = newString2.toString();
             }
         }
-        System.out.println(newString3);
-        return newString3;
+        int counter = 0;
+        for (int i = 0; i < newString.length() - counter; ++i) {
+            if (Character.isWhitespace(newString2.charAt(i))) {
+                newString2.deleteCharAt(i);
+                counter++;
+            }
+        }
+        String newString4 = newString2.toString();
+        System.out.println(newString4);
     }
 }
-
-
 
 
 
