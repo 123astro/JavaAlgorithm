@@ -85,13 +85,16 @@ public class Main {
         //10 5 20 20 4 5 2 25 1
 //         BreakingTheRecords.breakingRecords(scores);
 
-       CamelCase4.convert();
+     //  CamelCase4.convert();
 
        // DiagonalDifference.diagonalDifference(arr);
      //   FlippingBits.flippingBits( 1);
         // 0000/0000/0000/0000/0000/0000/0000/0001
 
+        List<Integer> ar = new ArrayList<>(){{add(1); add(2); add(3); add(4); add(5); add(6);}};
 
+
+    DivisbleSumPairs.divisibleSumPairs(6, 5, ar);
     }
 
 }
