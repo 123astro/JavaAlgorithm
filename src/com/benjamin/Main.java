@@ -1,9 +1,5 @@
 package com.benjamin;
 
-import abstraction.Car;
-import abstraction.Suzuki;
-import encapsulation.Encapsulate;
-
 import java.text.ParseException;
 import java.util.*;
 
@@ -94,7 +90,7 @@ public class Main {
         List<Integer> ar = new ArrayList<>(){{add(1); add(2); add(3); add(4); add(5); add(6);}};
 
 
-    DivisbleSumPairs.divisibleSumPairs(6, 5, ar);
+    DivisibleSumPairs.divisibleSumPairs(6, 5, ar);
     }
 
 }
