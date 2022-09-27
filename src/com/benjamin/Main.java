@@ -70,10 +70,10 @@ public class Main {
         // JavaSimpleArraySum.simpleArraySum(6);
         // JavaCompareTheTriplets.start();
         // Staircase.staircase(6);
-      //   List<Integer> arr = new ArrayList<>(){{add(2); add(3); add(4); }};
+        //   List<Integer> arr = new ArrayList<>(){{add(2); add(3); add(4); }};
 
         //List<List<Integer>> arr = new ArrayList<>(){{}};
-      //  PlusMinusHacker.plusMinus(arr);
+        //  PlusMinusHacker.plusMinus(arr);
         //TimeConversion.timeConversion("07:05:45PM");
 //
 //          List<Integer> scores =
@@ -81,16 +81,35 @@ public class Main {
         //10 5 20 20 4 5 2 25 1
 //         BreakingTheRecords.breakingRecords(scores);
 
-     //  CamelCase4.convert();
+        //  CamelCase4.convert();
 
-       // DiagonalDifference.diagonalDifference(arr);
-     //   FlippingBits.flippingBits( 1);
+        // DiagonalDifference.diagonalDifference(arr);
+        //   FlippingBits.flippingBits( 1);
         // 0000/0000/0000/0000/0000/0000/0000/0001
+//
+//        List<Integer> ar = new ArrayList<>(){{add(1); add(2); add(3); add(4); add(5); add(6);}};
+//
+//
+//    DivisibleSumPairs.divisibleSumPairs(6, 5, ar);
+//    }
 
-        List<Integer> ar = new ArrayList<>(){{add(1); add(2); add(3); add(4); add(5); add(6);}};
+        List<String> string = new ArrayList<>() {{
+            add("aba");
+            add("baba");
+            add("aba");
+            add("xzxb");
+        }};
+        List<String> queries = new ArrayList<>() {{
+            add("aba");
+            add("xzxb");
+            add("ab");
+        }};
 
+   SparseArrays.matchingStrings(string, queries);
 
-    DivisibleSumPairs.divisibleSumPairs(6, 5, ar);
+//        List<Integer> arr = new ArrayList<>(){{add(1); add(1); add(3); add(2); add(1);}};
+//
+//        CountinSort1.countingSort(arr);
     }
 
 }
