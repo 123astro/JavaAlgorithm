@@ -93,23 +93,23 @@ public class Main {
 //    DivisibleSumPairs.divisibleSumPairs(6, 5, ar);
 //    }
 
-        List<String> string = new ArrayList<>() {{
-            add("aba");
-            add("baba");
-            add("aba");
-            add("xzxb");
-        }};
-        List<String> queries = new ArrayList<>() {{
-            add("aba");
-            add("xzxb");
-            add("ab");
-        }};
-
-   SparseArrays.matchingStrings(string, queries);
-
-//        List<Integer> arr = new ArrayList<>(){{add(1); add(1); add(3); add(2); add(1);}};
+//        List<String> string = new ArrayList<>() {{
+//            add("aba");
+//            add("baba");
+//            add("aba");
+//            add("xzxb");
+//        }};
+//        List<String> queries = new ArrayList<>() {{
+//            add("aba");
+//            add("xzxb");
+//            add("ab");
+//        }};
 //
-//        CountinSort1.countingSort(arr);
+//   SparseArrays.matchingStrings(string, queries);
+
+        List<Integer> arr = new ArrayList<>(){{add(1); add(1); add(3); add(2); add(1);}};
+
+        CountinSort1.countingSort(arr);
     }
 
 }
