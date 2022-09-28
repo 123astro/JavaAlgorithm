@@ -111,10 +111,18 @@ public class Main {
 //
 //        CountinSort1.countingSort(arr);
 
-        List<Integer> grades =
-                new ArrayList<>(){{add(86); add(30); add(0); add(16); add(51); add(55); add(42); add(50); add(22);
-            add(70); add(12); add(27); add(34);add(24); add(95); add(16); add(32); add(22); add(52); add(56); add(71);add(95);}};
-        GradingStudents.gradingStudents(grades);
+//        List<Integer> grades =
+//                new ArrayList<>(){{add(86); add(30); add(0); add(16); add(51); add(55); add(42); add(50); add(22);
+//            add(70); add(12); add(27); add(34);add(24); add(95); add(16); add(32); add(22); add(52); add(56); add(71);add(95);}};
+//        GradingStudents.gradingStudents(grades);
+//    }
+        List<Integer> a =
+//                new ArrayList<>(){{add(1); add(1); add(2);}};
+
+        new ArrayList<>(){{add(34); add(95); add(34); add(64); add(45); add(95); add(16); add(80); add(80); add(75);
+        add(3); add(25); add(75); add(25);add(31); add(3); add(64); add(16); add(31);;}};
+        LonelyInteger.lonelyinteger(a);
+
     }
 
 }
