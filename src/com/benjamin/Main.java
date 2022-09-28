@@ -107,9 +107,14 @@ public class Main {
 //
 //   SparseArrays.matchingStrings(string, queries);
 
-        List<Integer> arr = new ArrayList<>(){{add(1); add(1); add(3); add(2); add(1);}};
+//        List<Integer> arr = new ArrayList<>(){{add(1); add(1); add(3); add(2); add(1);}};
+//
+//        CountinSort1.countingSort(arr);
 
-        CountinSort1.countingSort(arr);
+        List<Integer> grades =
+                new ArrayList<>(){{add(86); add(30); add(0); add(16); add(51); add(55); add(42); add(50); add(22);
+            add(70); add(12); add(27); add(34);add(24); add(95); add(16); add(32); add(22); add(52); add(56); add(71);add(95);}};
+        GradingStudents.gradingStudents(grades);
     }
 
 }
