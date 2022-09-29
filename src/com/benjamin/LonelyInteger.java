@@ -4,7 +4,7 @@ import java.util.*;
 
 public class LonelyInteger {
     public static int lonelyinteger(List<Integer> a) {
-        Collections.sort(a);
+       // Collections.sort(a);
         Map<Integer, Integer> map = new HashMap<>();
         for (Integer element : a) {
             if (!map.containsKey(element)) {
@@ -19,10 +19,8 @@ public class LonelyInteger {
                 System.out.println(entry.getKey());
                 return entry.getKey();
             }
-
         }
         return 0;
     }
-
 }
 

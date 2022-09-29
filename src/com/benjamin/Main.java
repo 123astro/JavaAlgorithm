@@ -116,12 +116,16 @@ public class Main {
 //            add(70); add(12); add(27); add(34);add(24); add(95); add(16); add(32); add(22); add(52); add(56); add(71);add(95);}};
 //        GradingStudents.gradingStudents(grades);
 //    }
-        List<Integer> a =
+//        List<Integer> a =
 //                new ArrayList<>(){{add(1); add(1); add(2);}};
 
-        new ArrayList<>(){{add(34); add(95); add(34); add(64); add(45); add(95); add(16); add(80); add(80); add(75);
-        add(3); add(25); add(75); add(25);add(31); add(3); add(64); add(16); add(31);;}};
-        LonelyInteger.lonelyinteger(a);
+//        new ArrayList<>(){{add(34); add(95); add(34); add(64); add(45); add(95); add(16); add(80); add(80); add(75);
+//        add(3); add(25); add(75); add(25);add(31); add(3); add(64); add(16); add(31);;}};
+//      //  LonelyInteger.lonelyinteger(a);
+//        HashMapPractice.freqCount(a);
+        //String s = "The quick brown fox jumps over the lazy dog";
+        String s =  "We promptly judged antique ivory buckles for the next prize";
+        Pangrams.pangrams(s);
 
     }
 
