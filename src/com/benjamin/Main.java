@@ -134,7 +134,7 @@ public class Main {
 
         //JavaSubstringComparisons.getSmallestAndLargest("yES", 2);
        // JavaStringReverse.Solution.palinsrome("mada");
-        JavaAnagrams.isAnagram("hello", "Hello");
+        JavaAnagrams.isAnagram("ab", "abXY");
     }
 
 }
