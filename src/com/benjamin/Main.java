@@ -133,8 +133,11 @@ public class Main {
 //        FlippingTheMatrix.flippingMatrix(arr);
 
         //JavaSubstringComparisons.getSmallestAndLargest("yES", 2);
-       // JavaStringReverse.Solution.palinsrome("mada");
-        JavaAnagrams.isAnagram("ab", "abXY");
+
+  //      JavaAnagrams.isAnagram("ab", "abXY");
+
+        JavaAnagrams.isAnagram("hello", "Hello");
+
     }
 
 }
