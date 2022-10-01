@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class JavaAnagrams {
     static boolean isAnagram(String a, String b) {
-
+ // added
         Map<Character, Integer> map1 = new HashMap<>();
         for (int i = 0; i < a.length(); i++) { //iterate thru all of a list.
             a = a.toLowerCase(Locale.ROOT);
