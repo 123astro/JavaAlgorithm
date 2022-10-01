@@ -124,9 +124,16 @@ public class Main {
 //      //  LonelyInteger.lonelyinteger(a);
 //        HashMapPractice.freqCount(a);
         //String s = "The quick brown fox jumps over the lazy dog";
-        String s =  "We promptly judged antique ivory buckles for the next prize";
-        Pangrams.pangrams(s);
+//        String s =  "We promptly judged antique ivory buckles for the next prize";
+//        Pangrams.pangrams(s);
 
+//        List<List<Integer>> arr = new ArrayList<>();
+//        arr.add(Arrays.asList(2,1));
+//        arr.add(Arrays.asList(4,3));
+//        FlippingTheMatrix.flippingMatrix(arr);
+
+        //JavaSubstringComparisons.getSmallestAndLargest("yES", 2);
+        JavaStringReverse.Solution.palinsrome("madam");
     }
 
 }

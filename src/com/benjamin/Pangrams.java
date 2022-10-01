@@ -13,6 +13,7 @@ public class Pangrams {
 //        System.out.println(letters);
         s = s.toLowerCase(Locale.ROOT);
         for (char ch = 'a'; ch <= 'z'; ch++) {
+            System.out.println(ch);
             if (!s.contains(String.valueOf(ch))) {
                 alphabetPresent = false;
                 break;
