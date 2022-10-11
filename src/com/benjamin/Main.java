@@ -127,19 +127,78 @@ public class Main {
 //        String s =  "We promptly judged antique ivory buckles for the next prize";
 //        Pangrams.pangrams(s);
 
-//        List<List<Integer>> arr = new ArrayList<>();
-//        arr.add(Arrays.asList(2,1));
-//        arr.add(Arrays.asList(4,3));
-//        FlippingTheMatrix.flippingMatrix(arr);
+        List<List<Integer>> arr = new ArrayList<>();
+        arr.add(Arrays.asList(112, 42, 83, 119));
+        arr.add(Arrays.asList(56, 125, 56, 49));
+        arr.add(Arrays.asList(15, 78, 101, 43));
+        arr.add(Arrays.asList(62, 98, 114, 108));
+        FlippingTheMatrix.flippingMatrix(arr);
+
+//        112 42 83 119   matrix = [[112, 42, 83, 119], [56, 125, 56, 49], \
+//        56 125 56 49              [15, 78, 101, 43], [62, 98, 114, 108]]
+//        15 78 101 43
+//        62 98 114 108
 
         //JavaSubstringComparisons.getSmallestAndLargest("yES", 2);
 
-  //      JavaAnagrams.isAnagram("ab", "abXY");
+        //      JavaAnagrams.isAnagram("ab", "abXY");
 
-        JavaAnagrams.isAnagram("hello", "Hello");
+//        JavaAnagrams.isAnagram("hello", "Hello");
+//        List<Integer>  sticks =
+//                new ArrayList<>(){{add(1); add(2); add(3);add(4); add(5); add(10);}};
+//        MaxPerimeterTriangle.maximumPerimeterTriangle(sticks);
+//        List<Integer>  A =
+//               new ArrayList<>(){{add(2); add(3); add(1); add(1); add(1);}};
+//        List<Integer>  B =
+//                new ArrayList<>(){{add(1); add(3); add(4); add(3); add(3);}};
+//        PermutingTwoArrays.twoArrays(5, A, B);
 
+//        List<Integer>  A =
+//                new ArrayList<>(){{add(1); add(3); }};
+//        List<Integer>  B =
+//                new ArrayList<>(){{add(3); add(1); }};
+//        PermutingTwoArrays.twoArrays(4, A, B);
+//        List<Integer>  A =
+//                new ArrayList<>(){{add(1); add(2); add(3);}};
+//        List<Integer>  B =
+//                new ArrayList<>(){{add(7); add(8); add(9);}};
+//        PermutingTwoArrays.twoArrays(10, A, B);
+//        List<Integer>  A =
+//                new ArrayList<>(){{add(1); add(5); add(1); add(4); add(4); add(2); add(7); add(1); add(2); add(2);}};
+//        List<Integer>  B =
+//                new ArrayList<>(){{add(8); add(7); add(1); add(7); add(7); add(4); add(4); add(3); add(6); add(7);}};
+//        PermutingTwoArrays.twoArrays(9, A, B);
+
+//        List<Integer>  A =
+//                new ArrayList<>(){{add(3); add(6); add(8); add(5); add(9); add(9); add(4); add(8); add(4); add(7);}};
+//        List<Integer>  B =
+//                new ArrayList<>(){{add(5); add(1); add(0); add(1); add(6); add(4); add(1); add(7); add(4); add(3);}};
+//        PermutingTwoArrays.twoArrays(9, A, B);
+
+
+//        5
+//        2 4
+//        1 3
+//        3 1
+//        5 5
+//        2 3 1 1 1
+//        1 3 4 3 3
+//        10 9
+//        1 5 1 4 4 2 7 1 2 2
+//        8 7 1 7 7 4 4 3 6 7
+//        10 9
+//        3 6 8 5 9 9 4 8 4 7
+//        5 1 0 1 6 4 1 7 4 3
+//        10 4
+//        4 4 3 2 1 4 4 3 2 4
+//        2 3 0 1 1 3 1 0 0 2
+
+//        YES
+//        NO
+//        No
+//        YES
+//        YES
     }
-
 }
 
 
