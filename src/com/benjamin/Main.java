@@ -126,18 +126,22 @@ public class Main {
         //String s = "The quick brown fox jumps over the lazy dog";
 //        String s =  "We promptly judged antique ivory buckles for the next prize";
 //        Pangrams.pangrams(s);
+//
+//        List<List<Integer>> arr = new ArrayList<>();
+//        arr.add(Arrays.asList(112, 42, 83, 119));
+//        arr.add(Arrays.asList(56, 125, 56, 49));
+//        arr.add(Arrays.asList(15, 78, 101, 43));
+//        arr.add(Arrays.asList(62, 98, 114, 108));
+//        FlippingTheMatrix.flippingMatrix(arr);
 
-        List<List<Integer>> arr = new ArrayList<>();
-        arr.add(Arrays.asList(112, 42, 83, 119));
-        arr.add(Arrays.asList(56, 125, 56, 49));
-        arr.add(Arrays.asList(15, 78, 101, 43));
-        arr.add(Arrays.asList(62, 98, 114, 108));
-        FlippingTheMatrix.flippingMatrix(arr);
-
-//        112 42 83 119   matrix = [[112, 42, 83, 119], [56, 125, 56, 49], \
-//        56 125 56 49              [15, 78, 101, 43], [62, 98, 114, 108]]
-//        15 78 101 43
-//        62 98 114 108
+//        List<List<Integer>> arr = new ArrayList<>();
+//        arr.add(Arrays.asList(1, 2));
+//        arr.add(Arrays.asList(3,4));
+////
+//        FlippingTheMatrix.flippingMatrix(arr);
+      // CountingValleys.countingValleys(8, "UDDDUDUU");
+        //CountingValleys.countingValleys(8, "DDUUUUDD");
+        CountingValleys.countingValleys(8, "UDDDUDUU");
 
         //JavaSubstringComparisons.getSmallestAndLargest("yES", 2);
 
@@ -151,7 +155,7 @@ public class Main {
 //               new ArrayList<>(){{add(2); add(3); add(1); add(1); add(1);}};
 //        List<Integer>  B =
 //                new ArrayList<>(){{add(1); add(3); add(4); add(3); add(3);}};
-//        PermutingTwoArrays.twoArrays(5, A, B);
+//        PermutingTwoArrays.twoArrays(5, A,
 
 //        List<Integer>  A =
 //                new ArrayList<>(){{add(1); add(3); }};
